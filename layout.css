@@ -1,0 +1,68 @@
+.formAddUserInput {
+    box-sizing: border-box;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* .forms {
+    margin: auto;
+    width: 50%;
+} */
+
+/* .formAddUserInput {
+    box-sizing: border-box;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+} */
+
+/* .formAddUserInput .forms {
+    margin: auto;
+} */
+
+legend.legendAddUser  {
+    border-style: groove;
+}
+
+.formAddUserInput .forms {
+    padding: 5px;
+}
+
+.formAddUserInput .forms input[type=text],
+input[type=email],
+input[type=option],
+input[type=date],
+select,
+textarea {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+}
+
+.formAddUserInput .sectionDateStatus {
+    display: flex;
+    justify-content: center;
+}
+
+.formAddUserInput .formsFavProgLang .formsFavProgLangSelection {
+    display: flex;
+    justify-content: center;
+}
+
+.formAddUserInput .formsAddi {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.formAddUserInput .formsAddi input {
+    display: inline-block;
+    height: 25px;
+    width: 18px;
+}
+
+.formAddUserInput .formsAddi label {
+    display: inline-block;
+    width: 5em;
+}
