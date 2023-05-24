@@ -16,7 +16,7 @@ legend.legendAddUser  {
 }
 
 .formAddUserInput .forms {
-    padding: 5px;
+    padding: 0.3em;
 }
 
 .formAddUserInput .forms input[type=text],
@@ -28,6 +28,19 @@ textarea {
     box-sizing: border-box;
     display: block;
     margin: auto;
+}
+
+.formAddUserInput .forms input[type=text] {
+    padding: 0.3em 3em;
+}
+
+.formAddUserInput .forms input[type=email] {
+    padding: 0.3em 3em;
+}
+
+.formAddUserInput .forms select,
+input[type=date] {
+    padding: 0.3em 0.2em;
 }
 
 .formAddUserInput .sectionDateStatus {
@@ -49,6 +62,10 @@ textarea {
 .formAddUserInput .formsFavProgLang .formsFavProgLangSelection label {
     display: inline-block;
     padding: 0.3em;
+}
+
+.formAddUserInput .formsComments textarea {
+    padding: 4em;
 }
 
 .formAddUserInput .formsAddi {
