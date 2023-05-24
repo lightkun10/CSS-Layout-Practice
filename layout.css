@@ -2,7 +2,7 @@ fieldset {
     position: relative;
     box-sizing: border-box;
     margin: auto;
-    width: 40%;
+    width: 30%;
     padding-bottom: 3em;
 }
 
@@ -31,16 +31,18 @@ textarea {
 }
 
 .formAddUserInput .forms input[type=text] {
-    padding: 0.3em 3em;
+    width: 17em;
+    height: 1.8em;
 }
 
 .formAddUserInput .forms input[type=email] {
-    padding: 0.3em 3em;
+    width: 17em;
+    height: 1.8em;
 }
 
 .formAddUserInput .forms select,
 input[type=date] {
-    padding: 0.3em 0.2em;
+    height: 1.8em;
 }
 
 .formAddUserInput .sectionDateStatus {
@@ -56,7 +58,7 @@ input[type=date] {
 .formAddUserInput .formsFavProgLang .formsFavProgLangSelection input {
     display: inline-block;
     height: 25px;
-    width: 18px;
+    width: 15px;
 }
 
 .formAddUserInput .formsFavProgLang .formsFavProgLangSelection label {
@@ -65,23 +67,24 @@ input[type=date] {
 }
 
 .formAddUserInput .formsComments textarea {
-    padding: 4em;
+    width: 17em;
+    height: 7em;
 }
 
 .formAddUserInput .formsAddi {
     display: flex;
     justify-content: center;
-    margin: 0.5em;
+    margin: 0.6em;
 }
 
 .formAddUserInput .formsAddi input {
     display: inline-block;
     height: 25px;
-    width: 18px;
+    width: 15px;
 }
 
 .formAddUserInput .formsAddi label {
     display: inline-block;
     width: 5em;
-    padding: 0.2em;
+    padding: 0.1em;
 }
